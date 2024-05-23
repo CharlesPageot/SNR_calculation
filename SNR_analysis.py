@@ -4,8 +4,10 @@ from matplotlib import pyplot as plt
 from scipy.stats import rayleigh
 import matplotlib.patches as patches
 
-path1 = '2024-05-16-data_coil\\_cohen-adad_coil_tests_20_20240514105048_4.nii'
-path2 = '2024-05-16-data_coil\\_cohen-adad_coil_tests_20_20240514105048_12.nii'
+# change path1 and path2 to the paths corresponding to Wantcom and HiQ respectively
+
+path1 = 'path\\to\\wantcom'
+path2 = 'path\\to\\hiq'
 
 
 def compute_SNR(path, z_slice, coil_name):
